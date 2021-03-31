@@ -31,7 +31,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage>
     with SingleTickerProviderStateMixin {
-  int _counter = 0;
+  // int _counter = 0;
   int translate = 0;
   bool canDrag;
   final double maxSlide = 300.0;
@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage>
 
   void _incrementCounter() {
     setState(() {
-      _counter++;
+      // _counter++;
       translate++;
     });
   }
@@ -103,8 +103,8 @@ class _MyHomePageState extends State<MyHomePage>
 
   @override
   Widget build(BuildContext context) {
-    double height = MediaQuery.of(context).size.height;
-    double width = MediaQuery.of(context).size.width;
+    // double height = MediaQuery.of(context).size.height;
+    // double width = MediaQuery.of(context).size.width;
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
